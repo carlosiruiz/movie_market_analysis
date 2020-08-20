@@ -70,7 +70,7 @@ After organizing all of the pulled data into a single pandas dataframe, we began
 
 #### Results + Recommendations
 
-![Image](Desktop/Flatiron/section01/movie_project/movie_market_analysis/companies_count.png?raw=true)
+![Image](companies_count.png?raw=true)
 
 
 
