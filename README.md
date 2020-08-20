@@ -70,12 +70,37 @@ After organizing all of the pulled data into a single pandas dataframe, we began
 
 #### Results + Recommendations
 
+##### Who are your top competitors by total movie output?
+
 ![Image](companies_count.png?raw=true)
 
+##### Who are your top competitors by mean movie revenue?
+
+![Image](companies_mean.png?raw=true)
+
+##### What are the trends for movie popularity over time by genre?
+
+![Image](genre_by_year.png?raw=true)
+
+##### What are the most profitable genres?
+
+![Image](histogram_no_outliers.png?raw=true)
+
+##### Which months do top production companies typically release new films?
+
+![Image](genre_by_month.png?raw=true)
+
+##### For the three most profitable genres, what is the distribution of total runtime?
+
+![Image](histogram.png?raw=true)
 
 
 
 #### Further Analysis
+
+In order to provide greater insights into Microsoft's entrance strategy, we would like to explore the following:
+
+1. Optimize online marketing strategy by investigating language used 
 
 
 
