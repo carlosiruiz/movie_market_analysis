@@ -1,0 +1,117 @@
+{
+  "$id": "http://schemas.imdb.com/json/dataset/name_essential_schema_v1.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "awards": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "awardName": {
+            "type": "string"
+          },
+          "awardNominationId": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "event": {
+            "type": "string"
+          },
+          "winner": {
+            "type": "boolean"
+          },
+          "year": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "awardName",
+          "awardNominationId",
+          "event",
+          "winner",
+          "year"
+        ],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "filmography": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "titleId": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "billing": {
+            "type": "integer"
+          },
+          "roles": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "jobs": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "attributes": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": ["titleId", "category"],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "imdbUrl": {
+      "format": "uri",
+      "type": "string"
+    },
+    "knownFor": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "titleId": {
+            "type": "string"
+          }
+        },
+        "required": ["category", "titleId"],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "name": {
+      "type": "string"
+    },
+    "nameId": {
+      "pattern": "^nm[0-9]{7,}$",
+      "type": "string"
+    },
+    "remappedTo": {
+      "pattern": "^nm[0-9]{7,}$",
+      "type": "string"
+    }
+  },
+  "required": ["name", "nameId", "imdbUrl"],
+  "type": "object"
+}
