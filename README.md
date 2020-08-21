@@ -48,11 +48,7 @@ We utilized the The Movie Database (TMDB) API for the construction of our master
 - Movie Revenue
 - Movie Release Date
 
-TMDB is a crowdsourced database for movies, and as such we knew that we would need to pull data strategically in order to maximize data accuracy for "budget" and "revenue" features. As such, we performed a GET request using the TMDB API "Discover" attribute to retrieve the top 9,000 movies based on TMDB "Popularity". Popularity in this sence indicates the overall frequency in which users of the TMDB website interact with and update the movie entry within the database. As this API call returns results in pages (with 20 movie details returned per page), we needed to run the request through a for loop with range(0,500).
-
-Following this, we had a list of 9,000 movies... but we were missing some key features.
-
-Using a for loop combined with a list of the Movie IDs returned from the first API request, we retrieved our desired missing data by performing a GET request with the TMDB API "Movie" attribute. Calling the "Movie" attribute returns all of our desired data for a single movie. We collected this information and stored each variable into a respective list. We then added each new list as a new column in our original dataframe.
+TMDB is a crowdsourced database for movies, and as such we knew that we would need to pull data strategically in order to maximize data accuracy for "budget" and "revenue" features. As such, we performed a GET request using the TMDB API "Discover" attribute to retrieve the top 9,000 movies based on TMDB "Popularity".
 
 
 ## Conclusion + Recommendations
