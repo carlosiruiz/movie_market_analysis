@@ -72,11 +72,11 @@ After organizing all of the pulled data into a single pandas dataframe, we began
 
 ##### Who are your top competitors by total movie output?
 
-![Image](companies_count.png?raw=true)
+![Image](company_count.png?raw=true)
 
 ##### Who are your top competitors by mean movie revenue?
 
-![Image](companies_mean.png?raw=true)
+![Image](company_mean.png?raw=true)
 
 ##### What are the trends for movie popularity over time by genre?
 
