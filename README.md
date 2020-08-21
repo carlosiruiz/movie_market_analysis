@@ -55,17 +55,6 @@ Following this, we had a list of 9,000 movies... but we were missing some key fe
 Using a for loop combined with a list of the Movie IDs returned from the first API request, we retrieved our desired missing data by performing a GET request with the TMDB API "Movie" attribute. Calling the "Movie" attribute returns all of our desired data for a single movie. We collected this information and stored each variable into a respective list. We then added each new list as a new column in our original dataframe.
 
 
-## Data Cleaning and Visualization
-
-After organizing all of the pulled data into a single pandas dataframe, we began the process of data cleaning which included:
-
-1. Removing unneccessary columns
-2. Ensuring that all numeric values were stored as either "Int64" or "Float64"
-3. Removing rows where Budget or Revenue equal 0
-4. Removing rows where IMDB_ID is null
-5. Removing rows where Production_Company and Production_Country = "[]" (empty)
-
-
 ## Conclusion + Recommendations
 
 #### Results + Recommendations
@@ -110,15 +99,6 @@ Release Month:
 
 Runtime:
 - Based on our analysis, the typical Fantasy, Animation, and Adventure genres are typically 90-100 minutes in duration.
-
-
-
-
-#### Further Analysis
-
-In order to provide greater insights into Microsoft's entrance strategy, we would like to explore the following:
-
-1. Optimize online marketing strategy by investigating language used 
 
 
 
