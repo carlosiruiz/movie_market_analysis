@@ -61,27 +61,27 @@ Using a for loop combined with a list of the Movie IDs returned from the first A
 
 ##### Who are your top competitors by total movie output?
 
-![Image](company_count.png?raw=true)
+![Image](images/company_count.png?raw=true)
 
 ##### Who are your top competitors by mean movie revenue?
 
-![Image](company_mean.png?raw=true)
+![Image](images/company_mean.png?raw=true)
 
 ##### What are the trends for movie popularity over time by genre?
 
-![Image](genre_year.png?raw=true)
+![Image](images/genre_year.png?raw=true)
 
 ##### What are the most profitable genres?
 
-![Image](boxplot_no_outliers.png?raw=true)
+![Image](images/boxplot_no_outliers.png?raw=true)
 
 ##### Which months do top production companies typically release new films?
 
-![Image](genre_month_clean.png?raw=true)
+![Image](images/genre_month_clean.png?raw=true)
 
 ##### For the three most profitable genres, what is the distribution of total runtime?
 
-![Image](histogram.png?raw=true)
+![Image](images/histogram.png?raw=true)
 
 
 Recommendations:
