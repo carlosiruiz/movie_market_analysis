@@ -66,7 +66,7 @@ After organizing all of the pulled data into a single pandas dataframe, we began
 5. Removing rows where Production_Company and Production_Country = "[]" (empty)
 
 
-## Conclusion
+## Conclusion + Recommendations
 
 #### Results + Recommendations
 
@@ -80,19 +80,37 @@ After organizing all of the pulled data into a single pandas dataframe, we began
 
 ##### What are the trends for movie popularity over time by genre?
 
-![Image](genre_by_year.png?raw=true)
+![Image](genre_year.png?raw=true)
 
 ##### What are the most profitable genres?
 
-![Image](histogram_no_outliers.png?raw=true)
+![Image](boxplot_no_outliers.png?raw=true)
 
 ##### Which months do top production companies typically release new films?
 
-![Image](genre_by_month.png?raw=true)
+![Image](genre_month_clean.png?raw=true)
 
 ##### For the three most profitable genres, what is the distribution of total runtime?
 
 ![Image](histogram.png?raw=true)
+
+
+Recommendations:
+
+Competition:
+- Investigate the operations of production companies such as Universal Pictures and Warner Brothers to optimize your movie production output 
+- Focus on developing large franchises like those owned by Marvel and Lucasfilms in order to maximize total revenue at the box office
+
+Genres:
+- Avoid genres like Drama, Comedy, and Thriller as these are highly saturated
+- Focus on developing Fantasy, Adventure, and Animation movies as these return the highest profit
+
+Release Month:
+- Avoid releasing films in “Dump Months” such as September, as you will have increased competition.
+
+Runtime:
+- Based on our analysis, the typical Fantasy, Animation, and Adventure genres are typically 90-100 minutes in duration.
+
 
 
 
