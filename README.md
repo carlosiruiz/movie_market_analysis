@@ -102,6 +102,13 @@ Runtime:
 
 
 
+## Future Analysis
+
+1. Retrieve data from social media sources (Twitter, Reddit, Facebook, etc) in order to measure the effectiveness of social media marketing on movie success
+
+2. Retrieve data from online streaming services such as Netflix and Hulu in order to focus on further expansion to online markets
+
+3. Include Production Countries data (from TMDB) in our analysis in order to assist Microsoft in foreign market expansion
 
 
 
